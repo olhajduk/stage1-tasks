@@ -1,22 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link type="image/x-icon" href="assets/favicon.ico" rel="shortcut icon">
   <link type="image/x-icon" href="assets/favicon.ico" rel="icon">
-
   <link href="https://fonts.gstatic.com" rel="preconnect">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap" rel="stylesheet">
-
-  <link type="text/css" href="assets/css/owfont-regular.css" rel="stylesheet">
-  <link href="assets/css/style.css" rel="stylesheet">
-
-  <title>relax-app</title>
+  <link type="text/css" href="css/owfont-regular.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <title>sounds-app</title>
 </head>
-
 <body>
   <main class="main">
     <!-- If you want, you can change the video file -->
@@ -53,9 +48,7 @@
           </video>
         </div>
       </div>
-
       <button class="fullscreen openfullscreen"></button>
-
       <div class="slider-btns">
         <div class="slider-btn slider-btn--prev">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -69,42 +62,30 @@
         </div>
       </div>
     </div>
-
     <div class="sidebar">
       <header class="header">
-        <h1 class="header-title">RelaxApp</h1>
+        <h1 class="header-title">SoundsApp</h1>
       </header>
-
+      <main class="sidebar-main">
       <ul class="playlist">
         <li class="playlist-item audio">
           <button class="audio-toggle" title="Turn on/off sound">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-              <path d="M8 5v14l11-7z"></path>
-            </svg>
           </button>
           <label class="audio-inner" title="Volume">
             audio name
             <input class="audio-volume" name="volume" data-sizing="%" type="range" min="0" max="100" value="0">
           </label>
         </li>
-
         <li class="playlist-item audio">
           <button class="audio-toggle" title="Turn on/off sound">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-              <path d="M8 5v14l11-7z"></path>
-            </svg>
           </button>
           <label class="audio-inner" title="Volume">
             audio name
             <input class="audio-volume" name="volume" data-sizing="%" type="range" min="0" max="100" value="0">
           </label>
         </li>
-
         <li class="playlist-item audio">
           <button class="audio-toggle" title="Turn on/off sound">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-              <path d="M8 5v14l11-7z"></path>
-            </svg>
           </button>
           <label class="audio-inner" title="Volume">
             audio name
@@ -112,7 +93,6 @@
           </label>
         </li>
       </ul>
-
       <div class="weather">
         <form class="weather-form">
           <input name="location" type="text" title="Find city" autocomplete="off" required>
@@ -120,7 +100,6 @@
             <span>Search location</span>
           </label>
         </form>
-
         <div class="weather-inner">
           <i class="weather-icon owf owf-800"></i>
           <div class="weather-description">
@@ -129,7 +108,7 @@
           </div>
         </div>
       </div>
-
+      </main>
       <footer class="footer">
         <a class="github" href="#" target="_blank" rel="noopener noreferrer">github</a>
         <a class="rss" href="https://rs.school/js/" target="_blank" rel="noopener">
@@ -138,7 +117,5 @@
       </footer>
     </div>
   </main>
-
 </body>
-
 </html>
